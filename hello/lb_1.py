@@ -98,6 +98,8 @@ class SimpleGraphicEditor:
         self.history.clear()
         self.redo_stack.clear()
 
+   print("----------------------------------------")
+    
     def undo(self):
         if self.history:
             last_action = self.history.pop()
